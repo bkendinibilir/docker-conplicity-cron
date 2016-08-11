@@ -4,7 +4,7 @@ Run [conplicity](https://hub.docker.com/r/camptocamp/conplicity/) periodically i
 
 ## Getting started
 
-Start Docker container, which triggers every night at 3:30am (default) a backup with conplicity to a AWS S3 bucket:
+Start Docker container, which triggers every night at 3:30am (default) a backup with conplicity to a AWS S3:
 
 ```shell
 $ docker run --name backup -ti --detach \

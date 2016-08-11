@@ -1,6 +1,6 @@
 # conplicity-cron
 
-Run [conplicity][https://hub.docker.com/r/camptocamp/conplicity/] periodically in a Docker container.
+Run [conplicity](https://hub.docker.com/r/camptocamp/conplicity/) periodically in a Docker container.
 
 ## Getting started
 

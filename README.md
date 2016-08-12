@@ -4,7 +4,7 @@ Run [conplicity](https://hub.docker.com/r/camptocamp/conplicity/) periodically i
 
 ## Getting started
 
-Start Docker container, which triggers every night at 3:30am (default) a backup with conplicity to a AWS S3:
+Start Docker container, which triggers every night at 3:30am (default) a backup with conplicity to AWS S3:
 
 ```shell
 $ docker run --name backup -ti --detach \
@@ -16,7 +16,7 @@ $ docker run --name backup -ti --detach \
      bkendinibilir/conplicity-cron
 ```
 
-Better put the credentials in an environment file (e.g. ~/.conplicity.env):
+Better set the credentials in an environment file (e.g. ~/.conplicity.env):
 
 ```
 AWS_ACCESS_KEY_ID=<key_id>
@@ -27,7 +27,7 @@ CONPLICITY_REMOVE_OLDER_THAN=30D
 CONPLICITY_TARGET_URL=s3://s3-eu-west-1.amazonaws.com/<bucket>/<dir>
 ```
 
-And start:
+Start using environment file:
 
 ```shell
 $ docker run --name backup -ti --detach \

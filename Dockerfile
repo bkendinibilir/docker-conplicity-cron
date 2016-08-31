@@ -1,6 +1,6 @@
 FROM alpine
 
-ARG CONPLICITY_VERSION=0.24.2
+ARG CONPLICITY_VERSION=0.25.1
 
 # Default: backup every night at 3:30 am
 ENV CONPLICITY_CRON_SCHEDULE="30 3 * * *"
